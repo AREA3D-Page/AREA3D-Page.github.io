@@ -14,7 +14,7 @@
   <title>AREA3D: Active Reconstruction Agent with Unified Feed-Forward 3D Perception and Vision-Language Guidance</title>
   
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fb923c'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
   
   <!-- CSS -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -22,8 +22,7 @@
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Fonts - Using system Helvetica -->
   
   <!-- JS -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -71,7 +70,7 @@
 
             <!-- Institution Logos -->
             <div class="institution-logos" style="margin-top: 1.5rem; margin-bottom: 0.5rem;">
-              <img src="static/images/logos/sustech.png" alt="SUSTech" style="height: 125px; margin: 0 5px; vertical-align: middle;">
+              <img src="static/images/logos/sustech.png" alt="SUSTech" style="height: 125px; margin: 0 0px; vertical-align: middle;">
               <img src="static/images/logos/harvard.png" alt="Harvard" style="height: 115px; margin: 0 12px; vertical-align: middle;">
               <img src="static/images/logos/caltech-circle.png" alt="Caltech" style="height: 95px; margin: 0 35px; vertical-align: middle;">
               <img src="static/images/logos/MIT.png" alt="MIT" style="height: 80px; margin: 0 12px; vertical-align: middle;">
@@ -106,16 +105,14 @@
     </div>
   </section>
 
-  <!-- ========== TEASER VIDEO ========== -->
+  <!-- ========== TEASER IMAGE ========== -->
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <!-- TODO: Replace with your teaser video -->
-        <video poster="" autoplay controls muted loop height="100%" preload="metadata">
-          <source src="static/videos/banner_video.mp4" type="video/mp4">
-        </video>
-        <!-- TODO: Replace with video caption -->
-        <h2 class="subtitle has-text-centered">
+        <!-- Teaser image -->
+        <img src="static/images/teaser.pdf" alt="AREA3D Teaser" style="width: 100%; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <!-- TODO: Replace with caption -->
+        <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
           AREA3D actively selects viewpoints to achieve accurate 3D reconstruction with vision-language guidance.
         </h2>
       </div>
