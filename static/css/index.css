@@ -1,7 +1,7 @@
 /* Modern CSS Variables for consistent theming */
 :root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
+  --primary-color: #0e7490;
+  --primary-hover: #155e75;
   --secondary-color: #64748b;
   --accent-color: #0ea5e9;
   --text-primary: #1e293b;
@@ -609,8 +609,8 @@ code {
   }
   
   .publication-title {
-    font-size: 1.75rem !important;
-    line-height: 1.35 !important;
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
     margin-bottom: 1.5rem !important;
   }
   
